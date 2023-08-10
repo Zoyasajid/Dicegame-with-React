@@ -1,0 +1,225 @@
+.box{
+    border: 4px solid black;
+    width: 72px;
+    height: 72px;
+    /* padding: 70px; */
+    display: grid;
+    place-items: center;
+    margin:3px;
+    font-size: 23px;
+    font-weight: 600;
+}
+.playgame{
+    margin:33px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.error2{
+    font-size: 17px;
+    font-weight: 700;
+    color: red;
+    margin-left: 225px;
+    /* margin-right: -15px; */
+
+    /* background-color: aqua; */
+}
+.selectedDice{
+    display: flex;
+
+    /* background-color: aquamarine; */
+    /* margin-left:910px; */
+    /* flex-direction: row; */
+    /* gap: 7px; */
+    /* justify-content: flex-end; */
+    margin-top:-5px;
+
+}
+.p-tag{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+
+    margin-top:5px;
+    margin-right: 15px;
+    font-size: 23px;
+    font-weight: 700;
+}
+.error{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+
+    margin-top: -10px;
+    margin-left: 34%;
+    font-size: 23px;
+    font-weight: 700;
+    /* background-color: blueviolet; */
+}
+button{
+    background-color: black;
+    /* width: 220px; */
+    padding-left: 60px;
+    padding-right: 60px;
+    height: 44px;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.btn{
+    display: flex;
+    flex-direction: column;
+    margin-top: 12px;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    /* border: 4px solid black; */
+
+}
+.btn1{
+    background-color: white;
+    color: black;
+    border: 4px solid black;
+}
+.btn1:hover{
+    background-color: black;
+    color: white;
+
+}
+.btn2:hover{
+    background-color: white;
+    color: black;
+    border: 4px solid black;
+
+}
+
+
+.score{ 
+height: auto; 
+ max-width: 200px; 
+ text-align: center;
+
+}
+.score p{
+    font-size: 24px;
+    font-weight: 500px;
+} 
+.score h1{
+    font-size: 90px;
+    line-height: 1px;
+    /* margin-top:20px; */
+
+    
+    }
+    .randomDice{
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        margin-top:30px;
+        /* margin-top:20px; */
+
+    }
+    .rules{
+        background-color: #FBF1F1;
+        padding: 30px;
+        border-radius: 10px;
+        /* margin: top 10%;; */
+        max-width: 800px;
+        /* margin-top: 40px; */
+        margin: 14px auto;
+
+
+    }
+    .rules h2{
+        font-size: 24px;
+    }
+    .rules-text{
+        margin-top:20px;
+        font-size: 14px;
+        font-weight: 550;
+
+    }
+    
+    @media (max-width:700px) {
+        .box{
+            border: 2px solid black;
+            width: 25px;
+            height: 32px;
+            /* padding: 70px; */
+            display: grid;
+            place-items: center;
+            margin:-1px;
+            /* gap: -1px; */
+            font-size: 16px;
+            /* background-color: brown; */
+            margin-top: 25px;
+            font-weight: 500;
+        }   
+       
+        .score{ 
+            /* background-color: blue; */
+        height: auto; 
+         max-width: 100px; 
+         text-align: center;
+         margin-top:-10px;
+
+        
+        }
+        .nav{
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .dice-select{
+            /* display: block; */
+            /* margin-left: -96%; */
+            margin-left: 11%;
+
+        }
+        .score p{
+            font-size: 14px;
+            font-weight: 450px;
+            margin-top:-10px;
+
+        } 
+        .score h1{
+            font-size: 50px;
+            line-height: 1px;
+            
+            }
+            .p-tag{
+                font-size: 15px;
+                margin-right: 63px;
+                margin-top: 3px;
+
+            }
+            .error2{
+                font-size: 17px;
+                font-weight: 700;
+                color: red;
+     margin-left: -10px;
+               
+            }
+            .error2{
+                font-size: 10px;
+            }
+            .selectedDice{
+                display: flex;
+            
+                /* background-color: aquamarine; */
+                /* margin-left:910px; */
+                /* flex-direction: row; */
+                /* gap: 7px; */
+                /* justify-content: flex-end; */
+                margin-left: -10px;
+                margin-top: -19px;
+
+
+            
+            }
+            .playgame {
+                margin: 33px;
+                width: 82%;
+            }
+    }
