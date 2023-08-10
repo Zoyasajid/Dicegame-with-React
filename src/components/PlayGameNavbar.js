@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import "./playgame.css";
-import RandomDice from "./RandomDice";
 import Rules from "./Rules";
 function PlayGameNavbar() {
   const arraNum = [1, 2, 3, 4, 5, 6];
